@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 .container {
     max-width: 1024px;
     width: 100%;
@@ -17,8 +21,7 @@ header {
     color: #fff;
 }
 
-header > .container{
-    display: flex;
+header > .container {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 16px;
@@ -27,9 +30,10 @@ header > .container{
 nav {
     background-color: #575fcf;
     padding: 16px 0;
+    display: none;
 }
 
-nav li{
+nav li {
     list-style: none;
     display: inline;
     margin-right: 16px;
@@ -38,15 +42,16 @@ nav li{
     text-transform: uppercase;
 }
 
-nav li a{
+nav li a {
     color: #fff;
     text-decoration: none;
 }
-.menu-hamburguer{
+.menu-hamburguer {
     width: 32px;
+    cursor: pointer;
 }
 
-.menu-hamburguer span{
+.menu-hamburguer span { 
     height: 2px;
     width: 100%;
     background-color: #fff;
@@ -54,3 +59,66 @@ nav li a{
     margin-bottom: 4px;
 }
 
+.container-flex { 
+    display: flex;
+}
+
+#sobre-a-loja img {
+    max-width: 400px;
+    margin-right: 24px;
+}
+
+section {
+    padding:48px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.lista-veiculos {
+flex-wrap: wrap;
+}
+
+
+.lista-veiculos li {
+    list-style: none;
+    max-width: 30%;
+    margin-bottom: 24px;
+}
+
+.lista-veiculos li img {
+    max-width: 100%;
+}
+
+.lista-veiculos li h3 {
+    margin: 16px 0;
+}
+
+.item-central {
+    margin:0 5%;
+}
+
+.lista-veiculos li button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #119759;
+    color:#fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.price {
+    margin: 16px 0;
+    display: block;
+}
+
+.price del {
+    color: #ccc;
+    font-size: 14px;
+}
