@@ -1,17 +1,1 @@
-# Conteúdos das Aulas
-
-1º Git
-
-2º HTML
-
-3º CSS
-
-4º PROJETO 1
-
-5º FUNDAMENTOS DO JAVASCRIPT
-
-6º INTEGRANDO HTML COM JAVASCRIPT
-
-7º PROJETO 2
-
-8º JQUERY
+# Ebac
